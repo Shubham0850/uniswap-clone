@@ -23,6 +23,8 @@ Note:- We will either use `backend` to store our data on Postgresql Database or 
 
 `git clone git@github.com:Shubham0850/uniswap-clone.git`
 
+----------------------------------------------------------------
+
 #### Step 2: Setup our frontend
 
 Go to the client directory `cd client`,
@@ -30,6 +32,8 @@ Go to the client directory `cd client`,
 To install dependencies run `yarn`,
 
 Run to start local dev server `yarn dev`
+
+-----------------------------------------------------------------
 
 #### Step 3: Setup our backend
 
@@ -40,6 +44,8 @@ To install dependencies run `yarn`,
 Run to start local dev server `yarn serve`
 
 
+-----------------------------------------------------------------
+
 ### If want to use Sanity Database
 
 Go to the studio directory `cd studio`,
@@ -47,6 +53,10 @@ Go to the studio directory `cd studio`,
 To install dependencies run `yarn`,
 
 Run to start local dev server `sanity start`
+
+
+-----------------------------------------------------------------
+
 
 ### If you want to update your smart contract
 
@@ -57,3 +67,5 @@ To install dependencies run `yarn`,
 After updating and compiling the contract. Go back to `smart_contract/artifacts/contracts/Transactions.json` and copy the content inside it and paste it to our frontend `client/lib/Transactins.json`
 
 After that you are ready to rock 🚀.
+
+Youtube video : (Clever Programmer)[https://www.youtube.com/watch?v=xXxjRzdYIss&t=2s]
